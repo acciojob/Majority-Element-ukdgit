@@ -1,7 +1,8 @@
 // arr = array of numbers
 function major(arr)
 {
-  const majorityElement = (arr = []) => {
+const arr = [2, 4, 2, 2, 2, 4, 6, 2, 5, 2];
+const majorityElement = (arr = []) => {
    const threshold = Math.floor(arr.length / 2);
    const map = {};
    for (let i = 0; i < arr.length; i++) {
@@ -12,6 +13,6 @@ function major(arr)
    };
    return false;
 };
-//console.log(majorityElement(arr));
+console.log(majorityElement(arr));
 }
 module.exports=major;
