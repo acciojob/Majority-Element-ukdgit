@@ -12,6 +12,7 @@ const majorityElement = (arr = []) => {
    };
    return false;
 };
+   return majorityElement;
 //console.log(majorityElement(arr));
 }
 module.exports=major;
