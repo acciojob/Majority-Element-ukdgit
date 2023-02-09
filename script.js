@@ -19,5 +19,4 @@
             //document.write(" No Majority element");
     }
 
-let arr = [2, 1, 2];
-majorityElementChecker(arr);
+module.exports = majorityElementChecker;
