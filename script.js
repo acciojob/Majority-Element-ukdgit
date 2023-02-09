@@ -15,7 +15,7 @@
             else
                 map.set(arr[i],1);
             }
-            return -1;
+            return 1;
             //document.write(" No Majority element");
     }
 
