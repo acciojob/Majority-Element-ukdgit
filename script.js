@@ -17,3 +17,5 @@
             }
             document.write(" No Majority element");
     }
+
+findMajority();
