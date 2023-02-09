@@ -6,8 +6,8 @@
             if (map.has(arr[i])) {
                     let count = map.get(arr[i]) +1;
                     if (count > arr.length /2) {
-                        document.write("Majority found :- " + arr[i]);
-                        return;
+                      //  document.write("Majority found :- " + arr[i]);
+                        return arr[i];
                     } else
                         map.set(arr[i], count);
  
@@ -15,7 +15,9 @@
             else
                 map.set(arr[i],1);
             }
-            document.write(" No Majority element");
+            return -1;
+            //document.write(" No Majority element");
     }
 
-findMajority();
+let arr = [2, 1, 2];
+findMajority(arr);
