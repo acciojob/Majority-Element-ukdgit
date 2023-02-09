@@ -1,4 +1,4 @@
- function findMajority(arr)
+ function majorityElementChecker(arr)
     {
         let map = new Map();
  
@@ -20,4 +20,4 @@
     }
 
 let arr = [2, 1, 2];
-findMajority(arr);
+majorityElementChecker(arr);
